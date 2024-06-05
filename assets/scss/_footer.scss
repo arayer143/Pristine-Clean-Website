@@ -2,13 +2,13 @@
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: $default;
+ 
   font-size: 14px;
-  background: $white;
+  
 
   .footer-top {
     padding: 60px 0 30px 0;
-    background: lighten($primary, 42);
+    background: lighten($secondary, 50);
 
     .footer-contact {
       h4 {
@@ -35,7 +35,7 @@
         padding: 10px 35px;
         letter-spacing: 1px;
         color: black;
-        background-color: $primary;
+        background-color: lighten($secondary, 20);
 
         a{
           color:black;
@@ -48,7 +48,7 @@
 
         &:hover{
           color: white;
-          background-color: $secondary;
+          background-color: lighten($primary, 50) ;
         }
 
       }

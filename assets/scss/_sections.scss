@@ -163,6 +163,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
+  background: lighten($secondary, 50);
 
   .icon-boxes {
 
@@ -252,6 +253,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
+  background: lighten($secondary, 50);
 
   .icon-box {
     padding: 50px 20px;
@@ -467,7 +469,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: linear-gradient(-15deg, #522888, #Bf9553 , #66369D  );
+  background: lighten($secondary, 50);
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -482,17 +484,17 @@ section {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(darken($secondary, 30), 0.5);
+   
   }
 
   .section-title h2 {
-    color: white;
+    color: black;
 
   }
 
   .section-title p{
     margin-top: 1rem;
-    color: white;
+    color: black;
 
   }
 
@@ -809,7 +811,7 @@ section {
     }
 
     button[type="submit"] {
-      background: $primary;
+      background: $secondary;
       border: 0;
       padding: 10px 24px;
       color: #fff;
