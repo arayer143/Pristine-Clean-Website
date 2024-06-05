@@ -1,0 +1,829 @@
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: lighten($primary, 42);
+}
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  position: relative;
+  color: rgb(56, 56, 56);
+}
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #d4af37;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 15px 0;
+  background: lighten($secondary, 70);
+  margin-bottom: 40px;
+
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-size: 14px;
+
+    li + li {
+      padding-left: 10px;
+    }
+
+    li + li::before {
+      display: inline-block;
+      padding-right: 10px;
+      color: lighten($secondary, 10);
+      content: "/";
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.why-us {
+  padding: 0 0 30px 0;
+  position: relative;
+  z-index: 3;
+
+  .content {
+    padding: 30px;
+    background: $primary;
+    border-radius: 4px;
+    color: $white;
+
+    h3 {
+      font-weight: 700;
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+
+    .more-btn {
+      display: inline-block;
+      background: rgba($white, .2);
+      padding: 6px 30px 8px 30px;
+      color: $white;
+      border-radius: 50px;
+      transition: all ease-in-out 0.4s;
+      i {
+        font-size: 14px;
+      }
+
+      &:hover {
+        color: $primary;
+        background: $white;
+      }
+    }
+
+  
+  }
+
+  .icon-boxes {
+
+    .icon-box {
+      text-align: center;
+      border-radius: 10px;
+      background: $white;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+      padding: 40px 30px;
+      width: 100%;
+
+      i {
+        font-size: 40px;
+        color: $primary;
+        margin-bottom: 30px;
+      }
+
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 0 30px 0;
+
+      }
+    
+    
+      p {
+        font-size: 15px;
+        color: lighten($default, 25);
+      }
+      
+    }
+  
+  }
+
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+
+  .icon-boxes {
+
+    h4 {
+      font-size: 18px;
+      color: lighten($secondary, 20);
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      font-size: 28px;
+      font-weight: 700;
+      color: lighten($secondary, 5);
+      margin-bottom: 15px;
+    }
+
+    h5{
+      margin-top: 2rem;
+      margin-bottom: -1.5rem;
+      color: $secondary;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+  
+
+  .icon-box {
+    margin-top: 40px;
+
+    .icon {
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      border: 2px solid lighten($primary, 30);
+      border-radius: 50px;
+      transition: 0.5s;
+      background: $white;
+  
+      i {
+        color: $primary;
+        font-size: 32px;
+      }
+  
+    }
+  
+    &:hover .icon {
+      background: $primary;
+      border-color: $primary;
+      i {
+        color: $white;
+      }
+  
+    }
+  
+    .title {
+      margin-left: 85px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 18px;
+      a {
+        color: $black;
+        transition: 0.3s;
+        &:hover {
+          color: $primary;
+        }
+      }
+  
+    }
+  
+    .description {
+      margin-left: 85px;
+      line-height: 24px;
+      font-size: 14px;
+    }
+  }
+
+ 
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+
+  .icon-box {
+    padding: 50px 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+    height: 80%;
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+  }
+
+  .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: $secondary;
+
+    i {
+      color: $white;
+      font-size: 24px;
+      line-height: 0;
+    }
+
+  }
+  .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    a {
+      color: $black;
+    }
+  }
+
+  span{
+    color: $primary;
+    font-weight: 700;
+    font-size: large;
+  }
+
+  .icon-box:hover  {
+    .icon {
+      background: $secondary;
+  
+      border: 2px solid $secondary;
+      i {
+        color: $primary;
+      }
+    }
+
+    .title a {
+      color: $primary;
+    }
+
+  }
+
+  .description {
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Cta
+--------------------------------------------------------------*/
+.cta {
+  background: $secondary;
+  background-size: cover;
+  padding: 60px 0;
+
+  h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .cta-btn {
+    font-family: $font-primary;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    background: $primary;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid $primary;
+    color: #fff;
+    &:hover {
+      background: lighten($color: $secondary, $amount: 30%);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+.values {
+  
+  .card {
+    border: 0;
+    padding: 460px 20px 20px 20px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+
+
+  .card-body {
+    z-index: 10;
+    background: rgba($white, .9);
+    padding: 15px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+    transition: 0.3s;
+    transition: ease-in-out 0.4s;
+    border-radius: 5px;
+  }
+
+  .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    a {
+      color: $secondary;
+    }
+  }
+
+  .card-text {
+    color: lighten($default, 10);
+  }
+
+  .read-more {
+    a {
+      color: lighten($default, 20);
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      transition: 0.4s;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .card:hover  {
+    .card-body {
+      background: $primary;
+    }
+    .read-more a, .card-title, .card-title a, .card-text {
+      color: $white;
+    }
+  }
+
+  .btn{
+    font-family: $font-primary;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+ 
+    transition: 0.5s;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 10px 26px 8px 26px;
+    color: #fff;
+    background: lighten($secondary, 6);
+    border-radius: 3rem;
+
+    &:hover{
+      color: $primary;
+    }
+
+
+
+
+  
+
+  }
+
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials {
+  padding: 80px 0;
+  background: linear-gradient(-15deg, #522888, #Bf9553 , #66369D  );
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+
+
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(darken($secondary, 30), 0.5);
+  }
+
+  .section-title h2 {
+    color: white;
+
+  }
+
+  .section-title p{
+    margin-top: 1rem;
+    color: white;
+
+  }
+
+
+.review-buttons{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+
+
+  .testimonials-carousel, .testimonials-slider {
+    overflow: hidden;
+    background-color: whitesmoke;
+    max-width: 500px;
+    border-radius: 2rem;
+    padding: 4px;
+    margin: auto;
+    
+  }
+
+  .testimonial-item {
+    text-align: center;
+    color: black; 
+    padding: 10px;
+
+
+    h2{
+      color: black;
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+      color: black;
+      margin-top: 3rem;
+    }
+
+    h4 {
+      font-size: 14px;
+      color: black;
+      margin: 0 0 15px 0;
+    }
+
+    .quote-icon-left, .quote-icon-right {
+      color: black;
+      font-size: 26px;
+    }
+
+    .quote-icon-left {
+      display: inline-block;
+      left: -5px;
+      position: relative;
+    }
+
+    .quote-icon-right {
+      display: inline-block;
+      right: -5px;
+      position: relative;
+      top:10px;
+    }
+
+    p {
+      font-style: italic;
+      margin: 0 auto 15px auto;
+      color: black;
+      font-size: medium;
+      max-width: 500px;
+     
+   
+    }
+
+  }
+
+  .swiper-pagination {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: $primary;
+      opacity: 1;
+    }
+  
+    .swiper-pagination-bullet-active {
+      background-color: $secondary;
+    }
+  }
+
+  @media (min-width: 992px) {
+
+.testimonial-item{
+  padding: 50px;
+}
+
+    .testimonial-item p {
+      padding: 10px;
+      margin-left: 15px;
+      margin-right: 15px;
+    } 
+  }
+
+}
+
+
+
+/*--------------------------------------------------------------
+# F.A.Q
+--------------------------------------------------------------*/
+.faq  {
+
+  .faq-list {
+    padding: 0 100px;
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+
+    li + li {
+      margin-top: 15px;
+    }
+
+    li {
+      padding: 20px;
+      background: #fff;
+      border-radius: 4px;
+      position: relative;
+    }
+
+    a {
+      display: block;
+      position: relative;
+      font-family: $font-secondary;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      padding: 0 30px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .icon-help {
+      font-size: 24px;
+      position: absolute;
+      right: 0;
+      left: 20px;
+      color: lighten($primary, 25);
+    }
+
+    .icon-show, .icon-close {
+      font-size: 24px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+      padding: 10px 0 0 0;
+    }
+
+    .icon-show {
+      display: none;
+    }
+
+
+    a.collapsed {
+      color: $black;
+      &:hover {
+        color: $primary;
+      }
+
+      .icon-show {
+        display: inline-block;
+      }
+
+      .icon-close {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .faq-list {
+      padding: 0;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+
+  .info-box {
+    color: $default;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px;
+
+    i {
+      font-size: 32px;
+      color: $primary;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      padding: 8px;
+      border: 2px dotted lighten($primary, 35);
+      float: left;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: lighten($default, 20);
+      font-weight: 700;
+      margin: 10px 0 10px 68px;
+    }
+
+    p {
+      padding: 0;
+      line-height: 24px;
+      font-size: 14px;
+      margin: 0 0 0 68px;
+    }
+
+    a{
+      font-family: $font-primary;
+      font-weight: 600;
+      margin-right: .5rem;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      margin-left: 2rem;
+      margin-top: 1rem;
+      transition: 0.5s;
+      text-align: center;
+      padding: 10px 26px 8px 26px;
+      color: #fff;
+      background: lighten($secondary, 6);
+      border-radius: 3rem;
+    
+      z-index: 4;
+      &:hover {
+        background: $primary;
+      }
+    }
+
+  }
+
+  .php-email-form {
+
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+    
+    .error-message {
+      display: none;
+      color: #fff;
+      background: #ed3c0d;
+      text-align: left;
+      padding: 15px;
+      font-weight: 600;
+      & br + br {
+        margin-top: 25px;
+      }
+    }
+    
+    .sent-message {
+      display: none;
+      color: #fff;
+      background: #18d26e;
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+    }
+  
+    .loading {
+      display: none;
+      background: #fff;
+      text-align: center;
+      padding: 15px;
+  
+      &:before {
+        content: "";
+        display: inline-block;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        margin: 0 10px -6px 0;
+        border: 3px solid #18d26e;
+        border-top-color: #eee;
+        animation: animate-loading 1s linear infinite;
+      }
+  
+    }
+
+    input, textarea {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+      &:focus {
+        border-color: $primary;
+      }
+    }
+
+    input {
+      padding: 10px 15px;
+    }
+
+    textarea {
+      padding: 12px 15px;
+    }
+
+    button[type="submit"] {
+      background: $primary;
+      border: 0;
+      padding: 10px 24px;
+      color: #fff;
+      transition: 0.4s;
+      &:hover {
+        background: lighten($primary, 10%);
+      }
+    }
+  
+  }
+  
+  @keyframes animate-loading {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+}
+

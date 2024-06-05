@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: $font-default;
+  color: $default;
+}
+
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+a:hover  {
+  color: lighten($primary, 10);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-primary;
+}
+
+
+.title-decoration {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 240px;
+  margin-top: 2rem;
+  
+  &::before,
+  &::after{
+      content: '';
+      position: absolute;
+      top: 17.5px;
+      display: block;
+      height: 1px;
+      width: 92px;
+      background-color: #aaa;
+  }
+  &::after {
+      right: 0;
+  }
+  
+  i[class*="fa"] {
+      display: block;
+      margin: auto;
+      width: 36px;
+      height: 36px;
+      border: 1px solid teal;
+      border-radius: 50%;
+      font-size: 18px;
+      font-style: normal;
+      text-align: center;
+      line-height: 35px;
+      color: black;
+  }
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: $primary;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+
+  i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+
+  &:hover  {
+    background: lighten($primary, 8);
+    color: #fff;
+  }
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
