@@ -90,7 +90,7 @@ section {
 
   .content {
     padding: 30px;
-    background: $primary;
+    background: lighten($secondary, 20);
     border-radius: 4px;
     color: $white;
 

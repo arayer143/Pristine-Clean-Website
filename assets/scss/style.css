@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #0b4ac0;
+  background: #1d53b8;
   font-size: 14px;
   padding: 0;
   color: rgba(255, 255, 255, 0.8);
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
 }
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #246cf3;
+  color: #4179e1;
   text-decoration: none;
 }
 #header .logo img {
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #246cf3;
+  color: #4179e1;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(9, 64, 168, 0.9);
+  background: rgba(26, 73, 162, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: rgb(37, 136, 37);
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding: 10px 26px 8px 26px;
   color: #fff;
-  background: #115ff2;
+  background: #306cde;
   border-radius: 3rem;
   z-index: 4;
 }
@@ -594,7 +594,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #246cf3;
+  color: #4179e1;
   content: "/";
 }
 
@@ -608,7 +608,7 @@ section {
 }
 .why-us .content {
   padding: 30px;
-  background: rgb(37, 136, 37);
+  background: #6d98e8;
   border-radius: 4px;
   color: #fff;
 }
@@ -662,23 +662,23 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: #e5eefe;
+  background: #f1f5fd;
 }
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #548df6;
+  color: #6d98e8;
   margin-bottom: 15px;
 }
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #0d5cf0;
+  color: #2b69dd;
   margin-bottom: 15px;
 }
 .about .icon-boxes h5 {
   margin-top: 2rem;
   margin-bottom: -1.5rem;
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   font-weight: 500;
   font-size: 20px;
 }
@@ -731,7 +731,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background: #e5eefe;
+  background: #f1f5fd;
 }
 .services .icon-box {
   padding: 50px 20px;
@@ -757,7 +757,7 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: rgb(12, 83, 216);
+  background: rgb(33, 93, 206);
 }
 .services .icon i {
   color: #fff;
@@ -779,8 +779,8 @@ section {
   font-size: large;
 }
 .services .icon-box:hover .icon {
-  background: rgb(12, 83, 216);
-  border: 2px solid rgb(12, 83, 216);
+  background: rgb(33, 93, 206);
+  border: 2px solid rgb(33, 93, 206);
 }
 .services .icon-box:hover .icon i {
   color: rgb(37, 136, 37);
@@ -797,7 +797,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: rgb(12, 83, 216);
+  background: rgb(33, 93, 206);
   background-size: cover;
   padding: 60px 0;
 }
@@ -824,7 +824,7 @@ section {
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #85adf8;
+  background: #99b7ef;
 }
 
 /*--------------------------------------------------------------
@@ -836,7 +836,7 @@ section {
 .our-process h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #0d5cf0;
+  color: #2b69dd;
   margin-bottom: 15px;
 }
 .our-process .gallery-item {
@@ -882,7 +882,7 @@ section {
 }
 
 .glightbox-clean .gslide-description {
-  background: #0d5cf0;
+  background: #2b69dd;
 }
 
 .glightbox-clean .gslide-title {
@@ -895,7 +895,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: #e5eefe;
+  background: #f1f5fd;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -982,7 +982,7 @@ section {
   opacity: 1;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgb(12, 83, 216);
+  background-color: rgb(33, 93, 206);
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item {
@@ -1105,7 +1105,7 @@ section {
   text-align: center;
   padding: 10px 26px 8px 26px;
   color: #fff;
-  background: #115ff2;
+  background: #306cde;
   border-radius: 3rem;
   z-index: 4;
 }
@@ -1167,7 +1167,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: rgb(12, 83, 216);
+  background: rgb(33, 93, 206);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1233,7 +1233,7 @@ section {
 }
 
 .glightbox-clean .gslide-description {
-  background: #0d5cf0;
+  background: #2b69dd;
 }
 
 .glightbox-clean .gslide-title {
@@ -1265,7 +1265,7 @@ section {
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
@@ -1321,7 +1321,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: rgb(12, 83, 216);
+  background-color: rgb(33, 93, 206);
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1330,11 +1330,11 @@ section {
   border-top: 1px solid #e6e6e6;
 }
 .blog .entry .entry-footer i {
-  color: #85adf8;
+  color: #99b7ef;
   display: inline;
 }
 .blog .entry .entry-footer a {
-  color: #0d5cf0;
+  color: #2b69dd;
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
@@ -1386,13 +1386,13 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
 }
 .blog .blog-author .social-links {
   margin: 0 10px 10px 0;
 }
 .blog .blog-author .social-links a {
-  color: rgba(12, 83, 216, 0.5);
+  color: rgba(33, 93, 206, 0.5);
   margin-right: 5px;
 }
 .blog .blog-author p {
@@ -1429,7 +1429,7 @@ section {
 }
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
 }
 .blog .blog-comments .comment h5 .reply i {
   font-size: 20px;
@@ -1437,7 +1437,7 @@ section {
 .blog .blog-comments .comment time {
   display: block;
   font-size: 14px;
-  color: #246cf3;
+  color: #4179e1;
   margin-bottom: 5px;
 }
 .blog .blog-comments .comment.comment-reply {
@@ -1480,13 +1480,13 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: rgb(12, 83, 216);
+  background-color: rgb(33, 93, 206);
 }
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #0d5cf0;
+  background-color: #2b69dd;
 }
 .blog .blog-pagination {
-  color: #548df6;
+  color: #6d98e8;
 }
 .blog .blog-pagination ul {
   display: flex;
@@ -1499,7 +1499,7 @@ section {
   transition: 0.3s;
 }
 .blog .blog-pagination li a {
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   padding: 7px 16px;
   display: flex;
   align-items: center;
@@ -1521,7 +1521,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   position: relative;
 }
 .blog .sidebar .sidebar-item {
@@ -1569,7 +1569,7 @@ section {
   padding-top: 10px;
 }
 .blog .sidebar .categories ul a {
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
@@ -1593,7 +1593,7 @@ section {
   font-weight: bold;
 }
 .blog .sidebar .recent-posts h4 a {
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
@@ -1617,7 +1617,7 @@ section {
   display: inline-block;
 }
 .blog .sidebar .tags ul a {
-  color: #6d9df7;
+  color: #83a7eb;
   font-size: 14px;
   padding: 6px 14px;
   margin: 0 6px 8px 0;
@@ -1649,7 +1649,7 @@ section {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #e5eefe;
+  background: #f1f5fd;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1675,7 +1675,7 @@ section {
   padding: 10px 35px;
   letter-spacing: 1px;
   color: black;
-  background-color: #548df6;
+  background-color: #6d98e8;
 }
 #footer .footer-top .footer-contact .btn-contact a {
   color: black;
@@ -1688,7 +1688,7 @@ section {
   background-color: #bfedbf;
 }
 #footer .footer-top h3 {
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
   font-weight: 700;
   font-size: 25px;
   text-align: center;
@@ -1702,7 +1702,7 @@ section {
 }
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
-  color: rgb(12, 83, 216);
+  color: rgb(33, 93, 206);
 }
 #footer .footer-top .footer-links ul {
   list-style: none;
