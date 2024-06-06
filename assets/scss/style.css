@@ -157,7 +157,8 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 80px;
+  max-height: 60px;
+  margin-left: 1rem;
 }
 
 .scrolled-offset {
@@ -900,38 +901,38 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Process
+# Service Area
 --------------------------------------------------------------*/
-.our-process {
+.service-area {
   background-color: whitesmoke;
 }
-.our-process h3 {
+.service-area h3 {
   font-size: 28px;
   font-weight: 700;
   color: #2b69dd;
   margin-bottom: 15px;
 }
-.our-process .map {
+.service-area .map {
   display: flex;
   padding: 40px;
   justify-content: space-between;
 }
 @media (max-width: 750px) {
-  .our-process .map {
+  .service-area .map {
     display: inline-block;
   }
 }
-.our-process .gallery-item {
+.service-area .gallery-item {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   max-height: 400px;
   max-width: 400px;
 }
-.our-process .gallery-item img {
+.service-area .gallery-item img {
   transition: 0.3s;
 }
-.our-process .gallery-links {
+.service-area .gallery-links {
   position: absolute;
   inset: 0;
   opacity: 0;
@@ -939,27 +940,27 @@ section {
   background: rgba(0, 0, 0, 0.6);
   z-index: 3;
 }
-.our-process .gallery-links .preview-link, .our-process .gallery-links .details-link {
+.service-area .gallery-links .preview-link, .service-area .gallery-links .details-link {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   transition: 0.3s;
   line-height: 1.2;
   margin: 30px 8px 0 8px;
 }
-.our-process .gallery-links .preview-link:hover, .our-process .gallery-links .details-link:hover {
+.service-area .gallery-links .preview-link:hover, .service-area .gallery-links .details-link:hover {
   color: #fff;
 }
-.our-process .gallery-links .details-link {
+.service-area .gallery-links .details-link {
   font-size: 30px;
   line-height: 0;
 }
-.our-process .gallery-item:hover .gallery-links {
+.service-area .gallery-item:hover .gallery-links {
   opacity: 1;
 }
-.our-process .gallery-item:hover .preview-link, .our-process .gallery-item:hover .details-link {
+.service-area .gallery-item:hover .preview-link, .service-area .gallery-item:hover .details-link {
   margin-top: 0;
 }
-.our-process .gallery-item:hover img {
+.service-area .gallery-item:hover img {
   transform: scale(1.1);
 }
 
