@@ -390,7 +390,7 @@ section {
 
   .card-body {
     z-index: 10;
-    background: rgba($white, .9);
+    background: lighten($secondary, 40);
     padding: 30px 30px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
     transition: 0.3s;
@@ -412,6 +412,15 @@ section {
     color: lighten($default, 10);
   }
 
+
+
+img{
+  width: 100%;
+  padding: 1rem;
+}
+
+
+
   .read-more {
     a {
       color: lighten($default, 20);
@@ -427,10 +436,10 @@ section {
 
   .card:hover  {
     .card-body {
-      background: $primary;
+      background: lighten($secondary, 30);
     }
     .read-more a, .card-title, .card-title a, .card-text {
-      color: $white;
+      color: black;
     }
   }
 
@@ -480,6 +489,18 @@ section {
     font-weight: 700;
     color: lighten($secondary, 5);
     margin-bottom: 15px;
+  }
+
+
+  .map{
+   display: flex;
+   padding: 40px;
+justify-content: space-between;
+
+   @media (max-width:750px){
+    display: inline-block;
+    
+   }
   }
 
 

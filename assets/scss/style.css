@@ -842,7 +842,7 @@ section {
 }
 .values .card-body {
   z-index: 10;
-  background: rgba(255, 255, 255, 0.9);
+  background: #c5d6f6;
   padding: 30px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
@@ -861,6 +861,10 @@ section {
 .values .card-text {
   color: #4b4949;
 }
+.values img {
+  width: 100%;
+  padding: 1rem;
+}
 .values .read-more a {
   color: #656262;
   text-transform: uppercase;
@@ -872,10 +876,10 @@ section {
   text-decoration: underline;
 }
 .values .card:hover .card-body {
-  background: rgb(37, 136, 37);
+  background: #99b7ef;
 }
 .values .card:hover .read-more a, .values .card:hover .card-title, .values .card:hover .card-title a, .values .card:hover .card-text {
-  color: #fff;
+  color: black;
 }
 .values .btn {
   font-family: "Raleway", sans-serif;
@@ -906,6 +910,16 @@ section {
   font-weight: 700;
   color: #2b69dd;
   margin-bottom: 15px;
+}
+.our-process .map {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+@media (max-width: 750px) {
+  .our-process .map {
+    display: inline-block;
+  }
 }
 .our-process .gallery-item {
   position: relative;
