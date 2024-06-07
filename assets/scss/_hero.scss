@@ -2,15 +2,15 @@
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: 400;
   height: 90vh;
   background-image:  url('../img/pristinecleanbanner.jpg');
   background-size: cover;
   opacity: 0.8;
-  background-position: center center;
   position: relative;
   padding: 0;
   margin-bottom: -120px;
+
 
 
 
@@ -48,6 +48,8 @@
 
   img{
     max-height: 250px;
+
+
   }
 
 
