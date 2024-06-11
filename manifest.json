@@ -1,15 +1,15 @@
 {
-    "name": "Clean Slate Pressure Washing", 
-    "short_name": "Clean Slate",
+    "name": "Pristine Clean Soft Washing", 
+    "short_name": "Pristine Clean Soft",
     "start_url": "/index.html",
-    "description": "Clean Slate is a Pressure washing company located in Des Alemands, LA",
+    "description": "Pristine Clean Soft Wash is a Pressure washing company located Louisiana",
     "display": "standalone",
     "background-color": "#whitesmoke",
-    "theme_color": "#66369D",
+    "theme_color": " #rgb(33, 93, 206)",
     "orientation": "portrait",
     "icons": [
-        {
-            "src": "assets/img/whitecleanslatelogo.jpg",
+        { 
+            "src": "assets/img/pristinelogo-no-bg.jpg",
             "type": "image/png",
             "sizes": "144x144"
         }
@@ -17,20 +17,20 @@
 
     "screenshots" : [
         {
-          "src": "assets/img/cleanslatelogo.png",
+          "src": "assets/img/pristinelogo-no-bg.jpg",
           "sizes": "2500x1500",
           "type": "image/png",
           "form_factor": "wide",
       
-          "label": "Clean Slate Logo"
+          "label": "Pristine Clean Logo"
         },
         {
-            "src": "assets/img/cleanslatelogo.png",
+            "src": "assets/img/pristinelogo-no-bg.jpg",
             "sizes": "2500x1500",
             "type": "image/png",
         
             "form_factor": "narrow",
-            "label": "Clean Slate Logo"
+            "label": "Pristine Clean Logo"
           }
 
     ]
