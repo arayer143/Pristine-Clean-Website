@@ -633,7 +633,7 @@ section {
 }
 .why-us .content .more-btn:hover {
   color: rgb(37, 136, 37);
-  background: #fff;
+  background: rgb(33, 93, 206);
 }
 .why-us .icon-boxes .icon-box {
   text-align: center;
@@ -645,7 +645,7 @@ section {
 }
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: rgb(37, 136, 37);
+  color: rgb(33, 93, 206);
   margin-bottom: 30px;
 }
 .why-us .icon-boxes .icon-box h4 {
