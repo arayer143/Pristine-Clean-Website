@@ -32,7 +32,7 @@
   $contact->add_message( $_POST['phone'], 'Phone');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST ['subject'], 'Location');
-  $contact->add_message( $_POST['message'], 'Message');
+  $contact->add_message( $_POST['message'], 'Customer interested in');
   
 
 
