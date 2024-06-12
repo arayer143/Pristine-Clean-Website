@@ -1121,8 +1121,8 @@ section {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  margin-left: 2rem;
-  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
   transition: 0.5s;
   text-align: center;
   padding: 10px 26px 8px 26px;
