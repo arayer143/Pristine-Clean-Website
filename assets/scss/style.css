@@ -1004,6 +1004,12 @@ section {
 .testimonials .section-title p {
   margin-top: 1rem;
   color: black;
+  font-weight: 500;
+  font-size: 22px;
+}
+.testimonials .section-title i {
+  color: gold;
+  padding: 3px;
 }
 .testimonials .review-buttons {
   text-align: center;
