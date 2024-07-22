@@ -434,7 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   background-image: url("../img/pristinecleanbanner.webp");
   background-size: cover;
   background-color: #99b7ef;
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   margin-right: 0.5rem;
   font-size: 16px;
   letter-spacing: 1px;
@@ -496,6 +496,15 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: rgb(37, 136, 37);
 }
+@media (max-width: 425px) {
+  #hero .btn-get-started {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -503,13 +512,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1024px), (max-height: 768px) {
   #hero {
-    margin-bottom: -150px;
-    height: 110vh;
+    margin-bottom: -120px;
+    height: 90vh;
   }
 }
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 90vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -518,12 +527,12 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 @media (max-height: 640px) {
   #hero {
-    height: 120vh;
+    height: 100vh;
   }
 }
 
