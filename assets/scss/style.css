@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.1 ease;
   margin-right: 4px;
   margin-left: 10px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .rounded-social-buttons .social-button i {
@@ -430,6 +430,92 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about-alt .about-alt-img {
+  max-height: 400px;
+}
+.about-alt .content {
+  background-color: color-mix(in srgb, rgb(33, 93, 206), transparent 95%);
+  padding: 40px;
+}
+.about-alt .content h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(33, 93, 206);
+  text-transform: uppercase;
+}
+.about-alt .content h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 380px) {
+  .about-alt .content h2 {
+    text-align: center;
+  }
+}
+.about-alt .content p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+@media (max-width: 380px) {
+  .about-alt .content p {
+    text-align: center;
+  }
+}
+.about-alt .content .btn-read-more {
+  color: white;
+  background: rgb(33, 93, 206);
+  line-height: 0;
+  overflow: hidden;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  box-shadow: 0px 5px 25px color-mix(in srgb, rgb(33, 93, 206), transparent 90%);
+}
+@media (max-width: 380px) {
+  .about-alt .content .btn-read-more {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 240px) {
+  .about-alt .content .btn-read-more {
+    padding: 9px 20px;
+  }
+}
+.about-alt .content .btn-read-more span {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+@media (max-width: 380px) {
+  .about-alt .content .btn-read-more span {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}
+@media (max-width: 280px) {
+  .about-alt .content .btn-read-more span {
+    font-size: 9px;
+    letter-spacing: 0;
+  }
+}
+.about-alt .content .btn-read-more i {
+  margin-left: 4px;
+  font-size: 18px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+@media (max-width: 380px) {
+  .about-alt .content .btn-read-more i {
+    display: none;
+  }
+}
+.about-alt .content .btn-read-more:hover i {
+  transform: translateX(75px);
+}
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
@@ -552,7 +638,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
