@@ -769,6 +769,80 @@ section {
 .about {
   background: #f1f5fd;
 }
+.about .video-box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 400px;
+  text-align: center;
+  margin-top: 3rem;
+  position: relative;
+}
+.about .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(rgb(37, 136, 37) 50%, rgba(37, 136, 37, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+  overflow: hidden;
+}
+.about .play-btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.about .play-btn::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  animation-delay: 0s;
+  animation: pulsate-btn 2s;
+  animation-direction: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(37, 136, 37, 0.7);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+.about .play-btn:hover::after {
+  border-left: 15px solid rgb(37, 136, 37);
+  transform: scale(20);
+}
+.about .play-btn:hover::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  animation: none;
+  border-radius: 0;
+}
+.about .review-buttons {
+  text-align: center;
+}
 .about .icon-boxes h4 {
   font-size: 18px;
   color: #6d98e8;
@@ -830,6 +904,11 @@ section {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
+}
+.about .pulsating-play-btn {
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
 }
 
 /*--------------------------------------------------------------
