@@ -31,14 +31,21 @@
 
       .btn-contact{
         border-radius: 1rem;
-        font-size: medium;
-        padding: 10px 35px;
+ 
+        font-weight: 500;
+        font-size: 16px;
         letter-spacing: 1px;
-        color: black;
-        background-color: lighten($secondary, 20);
+        display: inline-block;
+        padding: 10px 35px;
+        background: $primary;
+        border-radius: 25px;
+        transition: 0.5s;
+        margin-top: 10px;
+        border: 2px solid $primary;
+        color: #fff;
 
         a{
-          color:black;
+          color:white;
 
         
           &:hover{
@@ -48,7 +55,7 @@
 
         &:hover{
           color: white;
-          background-color: lighten($primary, 50) ;
+          background: lighten($color: $secondary, $amount: 30%);
         }
 
       }
@@ -111,52 +118,7 @@
 
   }
 
-  .footer-newsletter {
-    font-size: 15px;
-
-    h4 {
-      font-size: 16px;
-      font-weight: bold;
-      color: $default;
-      position: relative;
-      padding-bottom: 12px;
-    }
-
-    form {
-      margin-top: 30px;
-      background: #fff;
-      padding: 6px 10px;
-      position: relative;
-      border-radius: 50px;
-      text-align: left;
-      border: 1px solid lighten($primary, 36);
-
-      input[type="email"] {
-        border: 0;
-        padding: 4px 8px;
-        width: calc(100% - 100px);
-      }
-
-      input[type="submit"] {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        border: 0;
-        background: none;
-        font-size: 16px;
-        padding: 0 20px;
-        background: $primary;
-        color: $white;
-        transition: 0.3s;
-        border-radius: 50px;
-        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
-        &:hover {
-          background: darken($primary, 10%);
-        }
-      }
-    }
-  }
+ 
 
   .credits {
     padding-top: 5px;
@@ -188,16 +150,24 @@
 
 
   .copyright{
+    text-align: center;
     button{
-      border-radius: 2rem;
-      color: $white;
-      background: $primary;
-     text-align: center;
+      font-family: $font-primary;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 15px;
+      background: grey;
+      border-radius: 25px;
+      transition: 0.5s;
+      margin-top: 10px;
 
-      transition: 0.3s;
+      color: #fff;
 
       &:hover {
         background: lighten($primary, 5);
+
       }
     }
 

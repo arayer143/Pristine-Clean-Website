@@ -1881,21 +1881,27 @@ section {
 }
 #footer .footer-top .footer-contact .btn-contact {
   border-radius: 1rem;
-  font-size: medium;
-  padding: 10px 35px;
+  font-weight: 500;
+  font-size: 16px;
   letter-spacing: 1px;
-  color: black;
-  background-color: #6d98e8;
+  display: inline-block;
+  padding: 10px 35px;
+  background: rgb(37, 136, 37);
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgb(37, 136, 37);
+  color: #fff;
 }
 #footer .footer-top .footer-contact .btn-contact a {
-  color: black;
+  color: white;
 }
 #footer .footer-top .footer-contact .btn-contact a:hover {
   color: white;
 }
 #footer .footer-top .footer-contact .btn-contact:hover {
   color: white;
-  background-color: #bfedbf;
+  background: #99b7ef;
 }
 #footer .footer-top h3 {
   color: rgb(33, 93, 206);
@@ -1943,48 +1949,6 @@ section {
   text-decoration: none;
   color: rgb(37, 136, 37);
 }
-#footer .footer-newsletter {
-  font-size: 15px;
-}
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #313030;
-  position: relative;
-  padding-bottom: 12px;
-}
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  text-align: left;
-  border: 1px solid #86de86;
-}
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: rgb(37, 136, 37);
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #1a601a;
-}
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
@@ -2009,12 +1973,21 @@ section {
   color: #fff;
   text-decoration: none;
 }
-#footer .copyright button {
-  border-radius: 2rem;
-  color: #fff;
-  background: rgb(37, 136, 37);
+#footer .copyright {
   text-align: center;
-  transition: 0.3s;
+}
+#footer .copyright button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 15px;
+  background: grey;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #fff;
 }
 #footer .copyright button:hover {
   background: #2a9c2a;
