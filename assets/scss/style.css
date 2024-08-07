@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   color: #4179e1;
   white-space: nowrap;
@@ -273,8 +273,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover, .navbar .active, .navbar .active:focus > a {
   color: rgb(37, 136, 37);
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  text-underline-offset: 4px;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   background: rgb(37, 136, 37);
@@ -309,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
 }
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 18px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: rgb(37, 136, 37);
