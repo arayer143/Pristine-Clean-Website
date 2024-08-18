@@ -90,36 +90,21 @@ section {
 
   .content {
     padding: 30px;
-    background: lighten($secondary, 20);
+    background: lighten($secondary, 25);
     border-radius: 4px;
-    color: $white;
+    color: black;
 
     h3 {
       font-weight: 700;
       font-size: 34px;
       margin-bottom: 30px;
+
     }
 
     p {
       margin-bottom: 30px;
     }
 
-    .more-btn {
-      display: inline-block;
-      background: rgba($white, .2);
-      padding: 6px 30px 8px 30px;
-      color: $white;
-      border-radius: 50px;
-      transition: all ease-in-out 0.4s;
-      i {
-        font-size: 14px;
-      }
-
-      &:hover {
-        color: $primary;
-        background: $secondary;
-      }
-    }
 
   
   }

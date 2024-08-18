@@ -578,7 +578,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 1rem;
   text-align: center;
-  padding: 10px 26px 8px 26px;
+  padding: 15px 36px 15px 36px;
   color: #fff;
   background: #306cde;
   border-radius: 3rem;
@@ -716,9 +716,9 @@ section {
 }
 .why-us .content {
   padding: 30px;
-  background: #6d98e8;
+  background: #83a7eb;
   border-radius: 4px;
-  color: #fff;
+  color: black;
 }
 .why-us .content h3 {
   font-weight: 700;
@@ -727,21 +727,6 @@ section {
 }
 .why-us .content p {
   margin-bottom: 30px;
-}
-.why-us .content .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: all ease-in-out 0.4s;
-}
-.why-us .content .more-btn i {
-  font-size: 14px;
-}
-.why-us .content .more-btn:hover {
-  color: rgb(37, 136, 37);
-  background: rgb(33, 93, 206);
 }
 .why-us .icon-boxes .icon-box {
   text-align: center;
