@@ -5,7 +5,7 @@
     "description": "Pristine Clean Soft Wash is a Pressure Washing Company located Louisiana",
     "display": "standalone",
     "background-color": "#whitesmoke",
-    "theme_color": " #rgb(33, 93, 206)",
+    "theme_color": "rgb(33, 93, 206)",
     "orientation": "portrait",
     "icons": [
         { 
