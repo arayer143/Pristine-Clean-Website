@@ -1962,6 +1962,7 @@ section {
 }
 #footer .copyright {
   text-align: center;
+  font-size: 18px;
 }
 #footer .copyright button {
   font-family: "Raleway", sans-serif;
@@ -1970,15 +1971,16 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 15px;
-  background: grey;
+  background: rgb(33, 93, 206);
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  color: #fff;
+  color: black;
 }
 #footer .copyright button:hover {
   background: #2a9c2a;
 }
 #footer .copyright a {
-  color: #fff;
+  color: white;
+  font-weight: 600;
 }

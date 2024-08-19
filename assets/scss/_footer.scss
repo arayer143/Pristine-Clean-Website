@@ -151,6 +151,7 @@
 
   .copyright{
     text-align: center;
+    font-size: 18px;
     button{
       font-family: $font-primary;
       font-weight: 500;
@@ -158,12 +159,12 @@
       letter-spacing: 1px;
       display: inline-block;
       padding: 10px 15px;
-      background: grey;
+      background: $secondary;
       border-radius: 25px;
       transition: 0.5s;
       margin-top: 10px;
 
-      color: #fff;
+      color: black;
 
       &:hover {
         background: lighten($primary, 5);
@@ -172,7 +173,8 @@
     }
 
     a{
-      color: #fff;
+      color: white;
+      font-weight: 600;
     }
 
     }
