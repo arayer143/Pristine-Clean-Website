@@ -1186,6 +1186,7 @@ section {
   overflow: hidden;
   background-color: whitesmoke;
   max-width: 500px;
+  height: 100%;
   border-radius: 2rem;
   padding: 4px;
   margin: auto;
@@ -1194,6 +1195,7 @@ section {
   text-align: center;
   color: black;
   padding: 10px;
+  height: 100%;
 }
 .testimonials .testimonial-item h2 {
   color: black;
