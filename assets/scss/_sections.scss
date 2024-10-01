@@ -299,11 +299,11 @@ section {
       font-weight: 700;
       margin-bottom: 10px;
       font-size: 18px;
-      a {
-        color: $black;
+  color: $black;
         transition: 0.3s;
         &:hover {
           color: $primary;
+          cursor: pointer;
         }
       }
   
@@ -328,7 +328,7 @@ section {
 
 
  
-}
+
 
 
 
