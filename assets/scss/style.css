@@ -762,12 +762,13 @@ section {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 400px;
+  max-width: 800px;
   text-align: center;
   margin-top: 3rem;
   position: relative;
 }
 .about .about-video {
-  width: auto;
+  width: 100%;
 }
 .about .play-btn {
   width: 94px;
